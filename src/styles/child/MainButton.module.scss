@@ -1,0 +1,14 @@
+.mainButton {
+    font-size: 6rem;
+    margin: 2rem 0 2rem 0;
+    letter-spacing: 10px;
+    font-family: pixelated;
+}
+.mainButton__selected {
+    color: rgb(100,255,100);
+    text-shadow: 2px 2px 5px black;
+}
+.mainButton:hover {
+    color: rgb(100,255,100);
+    text-shadow: 2px 2px 5px black;
+}

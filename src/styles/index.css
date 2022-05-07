@@ -1,0 +1,45 @@
+@font-face {
+    font-family: pixelated;
+    src: url("../assets/fonts/pixelated/jupiterc.ttf");
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    min-width: 1920px;
+    max-height: 1920px;
+    min-height: 1050px;
+    max-height: 1080px;
+}
+body {
+    background-image: url('../assets/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: 50% 50%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: 10px;
+    user-select: none;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+#root {
+    width: 100%;
+    height: 100vh;
+}
+.app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}

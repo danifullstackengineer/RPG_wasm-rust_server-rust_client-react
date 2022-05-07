@@ -1,0 +1,98 @@
+.healthBar {
+    position: absolute;
+    width: 100px;
+    right: 100px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: 100;   
+    bottom: 25px;
+    border: 2px solid rgb(125, 200, 200);
+    overflow: hidden;
+    background-color: white;
+}
+.healthBar__container {
+    position: absolute;
+  bottom: -10px;
+    height: 150%;
+  width: 150%;
+  object-fit: cover;
+  background: url("./../../assets/bitmaps/misc/water_red.png");
+  background-position: 75px 20px;
+  background-repeat: repeat-x;
+  animation: filling 50s linear infinite;
+  transform: translateY(20%);
+}
+.healthBar{
+    span {
+        color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: pixelated;
+        font-size: 3rem;
+    }
+}
+
+@keyframes filling {
+    5% {
+        background-position: 200px 40px;
+    }
+    10% {
+        background-position: 100px 30px;
+    }
+    15% {
+        background-position: 250px 50px;
+    }
+    20% {
+        background-position: 100px 30px;
+    }
+    25% {
+        background-position: 150px 40px;
+    }
+    30% {
+        background-position: 100px 20px;
+    }
+    35% {
+        background-position: 200px 40px;
+    }
+    40% {
+        background-position: 75px 20px;
+    }
+    45% {
+        background-position: 150px 20px;
+    }
+    50% {
+        background-position: 75px 20px;
+    }
+    55% {
+        background-position: 200px 40px;
+    }
+    60% {
+        background-position: 150px 20px;
+    }
+    65% {
+        background-position: 250px 50px;
+    }
+    70% {
+        background-position: 50px 20px;
+    }
+    75% {
+        background-position: 150px 30px;
+    }
+    80%{
+        background-position: 200px 20px;
+    }
+    85%{
+        background-position: 100px 40px;
+    }
+    90% {
+        background-position: 150px 20px;
+    }
+    95% {
+        background-position: 200px 40px;
+    }
+    100% {
+        background-position: 75px 20px;
+    }
+  }

@@ -1,0 +1,59 @@
+.experience {
+    position: absolute;
+    bottom: 50px;
+    width: 50%;
+    height: 25px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 25%;
+    background-color: white;
+    border: 2px solid rgb(125, 200, 200);
+    overflow: hidden;
+}
+.experience > img {
+    position: absolute;
+    height: 100px;
+    width: auto;
+    left: 0;
+}
+.experience__amount {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: rgb(100,255,100);
+}
+.experience__counter {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    height: 100%;
+    z-index: 101;
+    font-family: pixelated;
+    display: flex;
+    align-items: center;
+}
+.experience__counter > span {
+    font-size: 2rem;
+    color: black;
+}
+.experience__counter > span {
+    &:first-child {
+        margin-right: 10px;
+    }
+    &:last-child {
+        margin-left: 10px;
+    }
+}
+.experience__level {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    height: 100%;
+    z-index: 101;
+    color: black;
+    font-size: 2rem;
+    font-family: pixelated;
+}

@@ -1,0 +1,64 @@
+.login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    form {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        font-family: pixelated;
+        background-color: rgba(100,100,100,0.75);
+    }
+    form {
+        span {
+            font-size: 2.5rem;
+            align-self: center;
+            margin: .5rem 0 .5rem 0;
+        }   
+        input {
+            font-size: 2.5rem;
+            align-self: center;
+            margin: 1rem 0 1rem 0;
+            outline: none;
+            color: black;
+            font-family: pixelated;
+            width: 250px;
+        }
+        input::placeholder {
+            font-family: pixelated;
+            font-size: 2rem;
+        }
+        .login__input__pw {
+            -webkit-text-security: disc;
+        }
+        button {
+            width: 150px;
+            height: 30px;
+            align-self: center;
+            background-color: black;
+            border: none;
+            outline: none;
+            font-size: 2rem;
+            font-family: pixelated;
+            border-radius: 1rem;
+            cursor: pointer;
+            margin-top: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .login__btn__loading {
+            font-size: 0;
+        }
+        .login__btn__loading > div {
+            width: 12.5px;
+            height: 12.5px;
+            border-radius: 50%;
+            background-color: rgb(200,200,200);
+        }
+    }
+}
